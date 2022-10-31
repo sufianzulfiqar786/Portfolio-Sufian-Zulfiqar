@@ -1,0 +1,75 @@
+/* .colLeftEducation{
+    border-right: 5px solid red;
+} */
+
+.colLeftEducation {
+    position: relative;
+}
+
+.colLeftEducation::before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    /* transform: matrix(-50%, -50%); */
+    /* margin-right: -5.23%; */
+    transform: translateX(30px);
+    margin-top: 1%;
+    z-index: 15;
+}
+
+
+/* .colRightEducation{
+    border-left: 5px solid red;
+} */
+
+.colRightEducation {
+    position: relative;
+}
+
+.colRightEducation::before {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 14;
+    /* margin-left: -4.35%; */
+    transform: translateX(-26px);
+    margin-top: 0.7%;
+}
+
+
+.rowEducationLine {
+    position: relative;
+}
+
+
+.rowEducationLine::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    width: 5px;
+    height: 95%;
+    background-color: black;
+    margin-left: 50%;
+    margin-top: 7px;
+    z-index: 10;
+    position: absolute;
+}
+
+.EducationOn{
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-top: -5px;
+}
+
+.EducationOff{
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-top: -5px;
+}
