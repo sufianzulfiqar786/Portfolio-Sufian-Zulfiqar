@@ -13,7 +13,7 @@ const Education = () => {
 
 
 
-            <div className="fluid-container" id='contact'>
+            <div className="fluid-container" id='education'>
 
 
                 <div className="container">
@@ -143,7 +143,7 @@ const Education = () => {
 
 
 
-                        <div className="row mt-lg-5 mt-4 rowEducationLine ">
+                        <div className="row mt-lg-5 mt-4  rowEducationLine ">
 
 
 
@@ -206,6 +206,7 @@ const Education = () => {
 
 
 <hr className='mt-5' />
+{/* <hr className='mt-0' /> */}
 
                 </div>
 

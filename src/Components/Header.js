@@ -67,9 +67,10 @@ export default function Header() {
                 <div className={!scrollHeader ? "col-6 header1strow1Column2nd1 d-flex align-items-center justify-content-center" : "col-8 header1strow1Column2nd2  d-flex align-items-end justify-content-center "}>
                     {!scrollHeader ? <Link >Home</Link> : <Link style={{ marginBottom: "2.5%" }}>Home</Link>}
                     {!scrollHeader ? <Link activeClass="active" to="about" spy={true} smooth={true} offset={-90} duration={500} >About</Link> : <Link style={{ marginBottom: "2.5%" }} activeClass="active" to="about" spy={true} smooth={true} offset={-90} duration={500}  >About</Link>}
-                    {!scrollHeader ? <Link  activeClass="active" to="contact" spy={true} smooth={true} offset={-90} duration={500}  >Education</Link> : <Link style={{ marginBottom: "2.5%" }}  activeClass="active" to="contact" spy={true} smooth={true} offset={-90} duration={500}  >Education</Link>}
+                    {!scrollHeader ? <Link  activeClass="active" to="education" spy={true} smooth={true} offset={-90} duration={500}  >Education</Link> : <Link style={{ marginBottom: "2.5%" }}  activeClass="active" to="education" spy={true} smooth={true} offset={-90} duration={500}  >Education</Link>}
                     {!scrollHeader ? <Link  activeClass="active" to="portfolio" spy={true} smooth={true} offset={-90} duration={500}  >Portfolio</Link> : <Link style={{ marginBottom: "2.5%" }}  activeClass="active" to="portfolio" spy={true} smooth={true} offset={-90} duration={500}  >Portfolio</Link>}
-                    {!scrollHeader ? <Link>Contact</Link> : <Link style={{ marginBottom: "2.5%" }}>Contact</Link>}
+                    {!scrollHeader ? <Link  activeClass="active" to="contactt" spy={true} smooth={true} offset={-90} duration={500}  >Contact</Link> : <Link style={{ marginBottom: "2.5%" }}  activeClass="active" to="contactt" spy={true} smooth={true} offset={-90} duration={500}  >Contact</Link>}
+                    {/* {!scrollHeader ? <Link>Contact</Link> : <Link style={{ marginBottom: "2.5%" }}>Contact</Link>} */}
 
                 </div>
 
@@ -103,9 +104,10 @@ export default function Header() {
                         ></i>
                         <Link className='d-flex justify-content-center text-light' onClick={() => setMobileMenu1(!MobileMenu1)}  >Home</Link>
                         <Link className='d-flex justify-content-center text-light' activeClass="active" to="about" spy={true} smooth={true} offset={30} duration={500} onClick={() => setMobileMenu1(!MobileMenu1)} >About</Link>
-                        <Link className='d-flex justify-content-center text-light'  activeClass="active" to="contact" spy={true} smooth={true} offset={20} duration={500} onClick={() => setMobileMenu1(!MobileMenu1)}  >Education</Link>
+                        <Link className='d-flex justify-content-center text-light'  activeClass="active" to="education" spy={true} smooth={true} offset={20} duration={500} onClick={() => setMobileMenu1(!MobileMenu1)}  >Education</Link>
                         <Link className='d-flex justify-content-center text-light'  activeClass="active" to="portfolio" spy={true} smooth={true} offset={20} duration={500} onClick={() => setMobileMenu1(!MobileMenu1)}  >Portfolio</Link>
-                        <Link className='d-flex justify-content-center text-light'>Contact</Link>
+                        <Link className='d-flex justify-content-center text-light'  activeClass="active" to="contactt" spy={true} smooth={true} offset={20} duration={500} onClick={() => setMobileMenu1(!MobileMenu1)}  >Contact</Link>
+                        {/* <Link className='d-flex justify-content-center text-light'>Contact</Link> */}
 
                     </div>
 

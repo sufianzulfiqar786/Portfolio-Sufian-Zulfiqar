@@ -6,7 +6,7 @@ const About = () => {
     <>
 
 
-      <div className="fluid-container aboutBody" id='about'>
+      <div className="fluid-container aboutBody " id='about'>
 
         <div className="container">
 
@@ -110,6 +110,7 @@ const About = () => {
           </div>
 
 <hr className='mt-5' />
+{/* <hr className='mt-0' /> */}
 
         </div>
 

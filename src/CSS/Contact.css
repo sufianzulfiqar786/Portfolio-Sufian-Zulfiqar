@@ -1,0 +1,89 @@
+.contactBody{
+    background:  url("../Img/Contact.jpg") no-repeat fixed ;
+    background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.contactBodyRow{
+    /* background-color: #ffc107af; */
+    /* background-color: #ffc107a2; */
+    /* background-color: #ffc1078e; */
+    background-color: #ffc10777;
+}
+
+.contactBodyHeading{
+    background-color: white;
+}
+
+.contactButton button{
+    width: 135px;
+    height: 43px;
+border-radius: 50px;
+border: none;
+font-size: 20px;
+/* border: 2px solid white; */
+/* background-color: transparent; */
+/* color: white; */
+}
+
+.contactButton button:hover{
+    transition: 0.2s all;
+background-color: #ffc107;
+font-weight: bold;
+}
+
+.contactSendLine hr{
+    width: 100px;
+    height: 1px;
+    background-color: white;
+}
+
+.contactSocialMediaIcon i{
+    font-size: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.contactSocialMediaIcon i:hover{
+color: #ffc107;
+}
+
+
+.contactButton2nd button{
+    width: 135px;
+    height: 43px;
+border-radius: 50px;
+border: none;
+font-size: 19px;
+/* border: 2px solid white; */
+/* background-color: transparent; */
+/* color: white; */
+
+}
+
+.contactButton2nd button:hover{
+    transition: 0.2s all;
+background-color: #ffc107;
+font-weight: bold;
+}
+
+.contactInput input{
+    width: 350px;
+    height: 40px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: transparent;
+}
+
+.contactInput input:focus{
+    border-bottom: 3px solid #555;
+        outline: 0;
+        background-color: white;
+}
+
+.contactInput input::placeholder{
+font-size: 22px;
+}

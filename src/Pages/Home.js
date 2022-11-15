@@ -4,6 +4,7 @@ import About from '../Pages/About'
 import Education from '../Pages/Education'
 import '../CSS/Home.css'
 import Project from './Project'
+import Contact from './Contact'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <About/>
       <Education/>
       <Project/>
+      <Contact/>
 
 
 

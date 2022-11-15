@@ -82,7 +82,7 @@ const Project = () => {
                     </div>
 
 
-                    <div className="row ">
+                    <div className="row mb-4">
 
 
                         {/* <div className="col-lg-4">
@@ -150,6 +150,8 @@ const Project = () => {
 
                     </div>
 
+{/* <hr className='my-5' /> */}
+<hr className='my-0' />
 
                 </div>
 
