@@ -109,6 +109,8 @@ const About = () => {
 
           </div>
 
+<hr className='mt-5' />
+
         </div>
 
       </div>

@@ -31,17 +31,43 @@ const Education = () => {
                     </div>
 
 
+
+
+
+
                     <div className="row">
 
+                        <div className="col-6 EduMainParent ">
 
-                        <div className="col-6 d-flex justify-content-end"      >
+                            <div className="row">
 
-                            <h2 onClick={() => setEducation(true)  } className={Education? "EducationOn": ""}  >  <span><i class="fa fa-graduation-cap" aria-hidden="true"></i></span> Eduaction </h2>
+                                <div className="col-lg-6 EduIconParent ">
+                                    {/* <span onClick={() => setEducation(true)} className={Education ? " EduIconOn1 " : "EduIconOff1 "}  >  <i class="fa fa-graduation-cap" aria-hidden="true"    ></i>  </span> */}
+                                    <span onClick={() => setEducation(true)} className={Education ? " EduIconOn " : "EduIconOff "}  >  <i class="fa fa-graduation-cap" aria-hidden="true"    ></i>  </span>
+
+                                </div>
+                                <div className="col-lg-6 EduTextParent ">
+                                    {/* <p onClick={() => setEducation(true)} className={ Education ? " EdutextOn1 " : "EdutextOff1 "}  >   Eduaction </p> */}
+                                    <p onClick={() => setEducation(true)} className={Education ? " EdutextOn " : "EdutextOff "}  >   Eduaction </p>
+                                </div>
+
+                            </div>
 
                         </div>
 
-                        <div className="col-6">
-                            <h2 onClick={() => setEducation(false)}  className={Education? "": "EducationOff"} >    <span><i class="fa fa-briefcase"></i> </span> Experience </h2>
+                        <div className="col-6 EduMainParent1 ">
+
+                            <div className="row">
+
+                                <div className="col-lg-6 EduIconParent1   ">
+                                    <span onClick={() => setEducation(false)} className={Education ? "EduIconOff " : "EduIconOn "}  >  <i class="fa fa-briefcase" aria-hidden="true"    ></i>  </span>
+
+                                </div>
+                                <div className="col-lg-6 EduTextParent1 ">
+                                    <p onClick={() => setEducation(false)} className={Education ? " EdutextOff " : "EdutextOn"}  >   Skill </p>
+                                </div>
+
+                            </div>
 
                         </div>
 
@@ -52,15 +78,15 @@ const Education = () => {
                     {Education ? (
 
 
-                        <div className="row mt-5 rowEducationLine ">
+                        <div className="row mt-lg-5 mt-4 rowEducationLine ">
 
 
 
                             <div className="col-6 d-flex  align-items-end flex-column colLeftEducation">
-                                <div className='mr-4 '>
-                                    <h4>Matric-Computer</h4>
-                                    <h5>Chishtian Science School</h5>
-                                    <p>Chishtian (2014-16)</p>
+                                <div className=' Matric '>
+                                    <p className='EduH1p'>Matric-Computer</p>
+                                    <p className='EduH2p'>Chishtian Science School</p>
+                                    <p className='EduH3p' >Chishtian (2014-16)</p>
 
                                 </div>
 
@@ -76,18 +102,18 @@ const Education = () => {
                             </div >
                             <div className="col-6 d-flex colRightEducation">
                                 <div className='ml-4 '>
-                                    <h4>Intermediate-ICS</h4>
-                                    <h5>Punjab College</h5>
-                                    <p>Chishtian (2016-18)</p>
+                                    <p className='EduH1p'>Intermediate-ICS</p>
+                                    <p className='EduH2p'>Punjab College</p>
+                                    <p className='EduH3p'>Chishtian (2016-18)</p>
                                 </div>
                             </div>
 
 
                             <div className="col-6 d-flex  align-items-end flex-column colLeftEducation">
                                 <div className='mr-4 '>
-                                    <h4>BS-Computer Sceince</h4>
-                                    <h5>University of Lahore</h5>
-                                    <p>Lahore (2018-22)</p>
+                                    <p className='EduH1p'>BS-Computer Sceince</p>
+                                    <p className='EduH2p'>University of Lahore</p>
+                                    <p className='EduH3p'>Lahore (2018-22)</p>
                                 </div>
                             </div>
                             <div className="col-6">
@@ -101,9 +127,9 @@ const Education = () => {
                             </div>
                             <div className="col-6 d-flex colRightEducation">
                                 <div className='ml-4 '>
-                                    <h4>Certificates</h4>
-                                    <h5>Udemy, MDN</h5>
-                                    <p>Online (2018-22)</p>
+                                    <p className='EduH1p'>Certificates</p>
+                                    <p className='EduH2p'>Udemy, MDN</p>
+                                    <p className='EduH3p'>Online (2018-22)</p>
                                 </div>
                             </div>
 
@@ -111,19 +137,21 @@ const Education = () => {
                         </div>
 
 
+
+
                     ) : (
 
 
 
-                        <div className="row mt-5 rowEducationLine ">
+                        <div className="row mt-lg-5 mt-4 rowEducationLine ">
 
 
 
                             <div className="col-6 d-flex  align-items-end flex-column colLeftEducation">
                                 <div className='mr-4 '>
-                                    <h4>HTML5 - CSS3 </h4>
-                                    <h5>MDN Website</h5>
-                                    <p>2018-20</p>
+                                    <p className='EduH1p'>HTML5 - CSS3 </p>
+                                    <p className='EduH2p'>MDN Website</p>
+                                    <p className='EduH3p'>2018-20</p>
 
                                 </div>
 
@@ -139,18 +167,18 @@ const Education = () => {
                             </div >
                             <div className="col-6 d-flex colRightEducation">
                                 <div className='ml-4 '>
-                                    <h4>Sass - Bootstrap5</h4>
-                                    <h5>MDN Website</h5>
-                                    <p>2018-20</p>
+                                    <p className='EduH1p'>Sass - Bootstrap5</p>
+                                    <p className='EduH2p'>MDN Website</p>
+                                    <p className='EduH3p'>2018-20</p>
                                 </div>
                             </div>
 
 
                             <div className="col-6 d-flex  align-items-end flex-column colLeftEducation">
-                                <div className='mr-4 '>
-                                    <h4>JavaScript</h4>
-                                    <h5>Udemy Course</h5>
-                                    <p>2021-22</p>
+                                <div className=' JavaScript'>
+                                    <p className='EduH1p'>JavaScript</p>
+                                    <p className='EduH2p'>Udemy Course</p>
+                                    <p className='EduH3p'>2021-22</p>
                                 </div>
                             </div>
                             <div className="col-6">
@@ -164,9 +192,9 @@ const Education = () => {
                             </div>
                             <div className="col-6 d-flex colRightEducation">
                                 <div className='ml-4 '>
-                                    <h4>React JS</h4>
-                                    <h5>Udemy Course</h5>
-                                    <p>2021-22</p>
+                                    <p className='EduH1p'>React JS</p>
+                                    <p className='EduH2p'>Udemy Course</p>
+                                    <p className='EduH3p'>2021-22</p>
                                 </div>
                             </div>
 
@@ -177,7 +205,7 @@ const Education = () => {
 
 
 
-
+<hr className='mt-5' />
 
                 </div>
 

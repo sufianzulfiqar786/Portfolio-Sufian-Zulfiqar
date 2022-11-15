@@ -68,7 +68,7 @@ export default function Header() {
                     {!scrollHeader ? <Link >Home</Link> : <Link style={{ marginBottom: "2.5%" }}>Home</Link>}
                     {!scrollHeader ? <Link activeClass="active" to="about" spy={true} smooth={true} offset={-90} duration={500} >About</Link> : <Link style={{ marginBottom: "2.5%" }} activeClass="active" to="about" spy={true} smooth={true} offset={-90} duration={500}  >About</Link>}
                     {!scrollHeader ? <Link  activeClass="active" to="contact" spy={true} smooth={true} offset={-90} duration={500}  >Education</Link> : <Link style={{ marginBottom: "2.5%" }}  activeClass="active" to="contact" spy={true} smooth={true} offset={-90} duration={500}  >Education</Link>}
-                    {!scrollHeader ? <Link>Portfolio</Link> : <Link style={{ marginBottom: "2.5%" }}>Portfolio</Link>}
+                    {!scrollHeader ? <Link  activeClass="active" to="portfolio" spy={true} smooth={true} offset={-90} duration={500}  >Portfolio</Link> : <Link style={{ marginBottom: "2.5%" }}  activeClass="active" to="portfolio" spy={true} smooth={true} offset={-90} duration={500}  >Portfolio</Link>}
                     {!scrollHeader ? <Link>Contact</Link> : <Link style={{ marginBottom: "2.5%" }}>Contact</Link>}
 
                 </div>
@@ -104,7 +104,7 @@ export default function Header() {
                         <Link className='d-flex justify-content-center text-light' onClick={() => setMobileMenu1(!MobileMenu1)}  >Home</Link>
                         <Link className='d-flex justify-content-center text-light' activeClass="active" to="about" spy={true} smooth={true} offset={30} duration={500} onClick={() => setMobileMenu1(!MobileMenu1)} >About</Link>
                         <Link className='d-flex justify-content-center text-light'  activeClass="active" to="contact" spy={true} smooth={true} offset={20} duration={500} onClick={() => setMobileMenu1(!MobileMenu1)}  >Education</Link>
-                        <Link className='d-flex justify-content-center text-light'>Portfolio</Link>
+                        <Link className='d-flex justify-content-center text-light'  activeClass="active" to="portfolio" spy={true} smooth={true} offset={20} duration={500} onClick={() => setMobileMenu1(!MobileMenu1)}  >Portfolio</Link>
                         <Link className='d-flex justify-content-center text-light'>Contact</Link>
 
                     </div>

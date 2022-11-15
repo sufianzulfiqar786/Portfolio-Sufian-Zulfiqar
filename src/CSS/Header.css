@@ -26,12 +26,14 @@
     }
 
     .header1strow1Column1st1 img {
+    transition: 1.5s all;
         border-radius: 50%;
         width: 55%;
     }
 
     .header1strow1Column1st1 p {
         padding-top: 15px;
+        
     }
 
     /* after scroll */
@@ -81,6 +83,7 @@
         border-radius: 30px;
         background-color: #ffc107;
         text-align: center;
+        transition: 1s all;
     }
 
     .header1strow1Column1st1 h1 {
@@ -313,12 +316,28 @@
         justify-content: center;
     }
 
+    .mobileMenuOption{
+        background-color: red;
+        z-index: 30;
+    }
+
+
     /* Mobile Menu css ^ */
 
 
 }
 
+Link{
+    /* transition: 2s all; */
+}
+
+
 
 .active{
-    background-color: red !important;
+    transition: 1.5s all;
+    background-color: white !important;
+    color: black !important;
+    text-shadow: 0 0 3px yellow;
   }
+
+  
